@@ -31,6 +31,12 @@
           <AssociatedConnUserName />
           <FullPath>01_InstalltSQLt.sql</FullPath>
         </FileNode>
+        <FileNode Name="02_CreateNewTestClass_usp.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_CreateNewTestClass_usp.sql</FullPath>
+        </FileNode>
         <FileNode Name="11_RemoveTestClass.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
@@ -42,12 +48,6 @@
           <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>12_UninstalltSQLtFramework.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
