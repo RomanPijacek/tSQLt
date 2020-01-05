@@ -31,11 +31,23 @@
           <AssociatedConnUserName />
           <FullPath>01_InstalltSQLt.sql</FullPath>
         </FileNode>
-        <FileNode Name="02_CreateNewTestClass_usp.sql">
+        <FileNode Name="02_CreateNewTestClass.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>02_CreateNewTestClass_usp.sql</FullPath>
+          <FullPath>02_CreateNewTestClass.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_CreateNewSetUpForTestClass.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03_CreateNewSetUpForTestClass.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_CreateNewTestWithinTheTestClass.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_CreateNewTestWithinTheTestClass.sql</FullPath>
         </FileNode>
         <FileNode Name="11_RemoveTestClass.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
