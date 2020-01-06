@@ -2,7 +2,7 @@ USE AdventureWorks2017;
 GO
 
 ---------------------------------------------------------------------------------------
--- Uninstall tSQLt Framework
+-- Uninstall tSQLt Framework from this database
 ---------------------------------------------------------------------------------------
 
 EXECUTE tsqlt.Uninstall;

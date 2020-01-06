@@ -2,28 +2,27 @@ USE AdventureWorks2017;
 GO
 
 ---------------------------------------------------------------------------------------
--- 1.) Let's review and understand the procedure we are going to cover by tSQLt Tests
+-- Execute all Tests within the TestClass [test_dbo_usp_GetLongestServingEmployee]
 ---------------------------------------------------------------------------------------
 
-EXECUTE dbo.usp_GetLongestServingEmployee;
+EXECUTE tSQLt.RunTestClass 
+    @TestClassName = N'[test_dbo_usp_GetLongestServingEmployee]';
+GO
 
 ---------------------------------------------------------------------------------------
--- 2.) Create the new test class
+-- Execute all Tests within the TestClass [test_dbo_usp_PopulateDimDate]
 ---------------------------------------------------------------------------------------
 
-EXECUTE tsqlt.NewTestClass @ClassName = N'test_dbo_usp_GetLongestServingEmployee';
+EXECUTE tSQLt.RunTestClass 
+    @TestClassName = N'[test_dbo_usp_PopulateDimDate]';
+GO
 
 ---------------------------------------------------------------------------------------
--- 3.) Review the new TestClass = DB schema
+-- Execute all Tests implemented in the current database
 ---------------------------------------------------------------------------------------
 
--- Security ---> Schemas ---> 'test_dbo_usp_GetLongestServingEmployee'
-
----------------------------------------------------------------------------------------
--- 4.) Try to run new TestClass, but no tests defined yet
----------------------------------------------------------------------------------------
-
-EXECUTE tsqlt.RunTestClass @TestClassName = N'test_dbo_usp_GetLongestServingEmployee';
+EXECUTE tsqlt.RunAll;
+GO
 
 ---------------------------------------------------------------------------------------
 -- EOF

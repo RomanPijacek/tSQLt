@@ -26,7 +26,7 @@ BEGIN
     VALUES
         (1, N'Adam', N'Clain'),
         (2, N'Stephanie', N'McCluskey'),
-        (3, N'Jask', N'Stephens');
+        (3, N'Jack', N'Stephens');
 
     INSERT INTO HumanResources.Employee
     (
@@ -49,7 +49,7 @@ BEGIN
     -- 3.) Assert
     ---------------------------------------------------------------------------------------
 
-    EXECUTE tsqlt.AssertEquals 
+    EXECUTE tSQLt.AssertEquals 
         @Expected = 0,
         @Actual = @returnedRowCount,
         @Message = N'Returned incorrect number of longest serving employees!';
