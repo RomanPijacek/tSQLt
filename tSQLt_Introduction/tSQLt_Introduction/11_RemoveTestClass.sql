@@ -2,7 +2,7 @@ USE AdventureWorks2017;
 GO
 
 ---------------------------------------------------------------------------------------
--- Remove both Tests clases we implemented
+-- Try to Remove both Tests clases we implemented
 ---------------------------------------------------------------------------------------
 
 EXECUTE tSQLt.DropClass
@@ -14,16 +14,44 @@ EXECUTE tSQLt.DropClass
 GO
 
 ---------------------------------------------------------------------------------------
--- EOF
+-- Cleanup Script for tSQLt procedures:
 ---------------------------------------------------------------------------------------
 
--- Cleanup Script for tSQLt procedures:
+DROP TABLE IF EXISTS #tSQLtProcedures;
+GO
 
 SELECT 
-    * 
+    p.[name] AS ProcedureName,
+    s.[name] AS SchemaName,
+    s.[schema_id] AS SchemaId
+INTO
+    #tSQLtProcedures
 FROM 
-    sys.schemas AS s
-    INNER JOIN sys.extended_properties AS p ON p.major_id = s.schema_id 
+    sys.procedures AS p
+    INNER JOIN sys.schemas AS s ON s.[schema_id] = p.[schema_id]
+    INNER JOIN sys.extended_properties AS ep ON ep.[major_id] = s.[schema_id] 
 WHERE
-    p.[name] = 'tSQLt.TestClass' 
-    AND p.[value] = 1   
+    ep.[name] = 'tSQLt.TestClass' 
+    AND ep.[value] = 1;
+
+---------------------------------------------------------------------------------------
+-- Generate DROP commands for procedures
+---------------------------------------------------------------------------------------
+
+SELECT 
+    CONCAT('DROP PROCEDURE IF EXISTS ',  QUOTENAME(SchemaName), '.', QUOTENAME(ProcedureName), ';') AS ProcDropCommands
+FROM 
+    #tSQLtProcedures;
+
+---------------------------------------------------------------------------------------
+-- Generate tSQLt.DropClass commands
+---------------------------------------------------------------------------------------
+
+SELECT DISTINCT
+    CONCAT('EXECUTE tSQLt.DropClass @ClassName = N''',  QUOTENAME(SchemaName), ''';') AS ProcDropCommands
+FROM 
+    #tSQLtProcedures;
+
+---------------------------------------------------------------------------------------
+-- OEF
+---------------------------------------------------------------------------------------
