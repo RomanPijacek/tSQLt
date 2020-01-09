@@ -16,7 +16,7 @@ SELECT * FROM dbo.DimDate;
 -- 2.) Create the new test class
 ---------------------------------------------------------------------------------------
 
-EXECUTE tsqlt.NewTestClass 
+EXECUTE tSQLt.NewTestClass 
     @ClassName = N'test_dbo_usp_PopulateDimDate';
 
 ---------------------------------------------------------------------------------------
@@ -29,7 +29,7 @@ EXECUTE tsqlt.NewTestClass
 -- 4.) Try to run new TestClass, but no tests defined yet
 ---------------------------------------------------------------------------------------
 
-EXECUTE tsqlt.RunTestClass 
+EXECUTE tSQLt.RunTestClass 
     @TestClassName = N'test_dbo_usp_PopulateDimDate';
 
 ---------------------------------------------------------------------------------------

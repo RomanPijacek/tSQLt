@@ -6,7 +6,7 @@ GO
 ---------------------------------------------------------------------------------------
 
 EXECUTE tSQLt.DropClass
-    @ClassName = N'[test_dbo_usp_GetLongestServingEmployee]';
+    @ClassName = N'[test_dbo_usp_ArchiveSalesStore]';
 GO
 
 EXECUTE tSQLt.DropClass 

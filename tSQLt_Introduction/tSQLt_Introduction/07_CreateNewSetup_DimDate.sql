@@ -10,7 +10,7 @@ BEGIN
     -- Fake table referenced in the procedure dbo.usp_PopulateDimDate
     ---------------------------------------------------------------------------------------
     
-    EXECUTE tsqlt.FakeTable 
+    EXECUTE tSQLt.FakeTable 
         @TableName = N'DimDate', 
         @SchemaName = N'dbo';
 END

@@ -10,12 +10,12 @@ BEGIN
     -- Fake both tables used by the procedure dbo.usp_GetLongestServingEmployee
     ---------------------------------------------------------------------------------------
     
-    EXECUTE tsqlt.FakeTable 
+    EXECUTE tSQLt.FakeTable 
         @TableName = N'Employee', 
         @SchemaName = N'HumanResources',
         @Defaults = 1;
     
-    EXECUTE tsqlt.FakeTable 
+    EXECUTE tSQLt.FakeTable 
         @TableName = N'Person', 
         @SchemaName = N'Person',
         @Defaults = 1;

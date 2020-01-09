@@ -5,7 +5,7 @@ GO
 -- Uninstall tSQLt Framework from this database
 ---------------------------------------------------------------------------------------
 
-EXECUTE tsqlt.Uninstall;
+EXECUTE tSQLt.Uninstall;
 GO
 
 ---------------------------------------------------------------------------------------

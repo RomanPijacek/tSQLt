@@ -6,7 +6,7 @@ GO
 ---------------------------------------------------------------------------------------
 
 EXECUTE tSQLt.RunTestClass 
-    @TestClassName = N'[test_dbo_usp_GetLongestServingEmployee]';
+    @TestClassName = N'[test_dbo_usp_ArchiveSalesStore]';
 GO
 
 ---------------------------------------------------------------------------------------
@@ -21,7 +21,7 @@ GO
 -- Execute all Tests implemented in the current database
 ---------------------------------------------------------------------------------------
 
-EXECUTE tsqlt.RunAll;
+EXECUTE tSQLt.RunAll;
 GO
 
 ---------------------------------------------------------------------------------------

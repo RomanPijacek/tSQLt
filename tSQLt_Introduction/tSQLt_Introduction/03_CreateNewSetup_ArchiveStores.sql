@@ -10,12 +10,12 @@ BEGIN
     -- Fake both tables used by the procedure [dbo].[usp_ArchiveSalesStore]
     ---------------------------------------------------------------------------------------
 
-    EXECUTE tsqlt.FakeTable 
+    EXECUTE tSQLt.FakeTable 
         @TableName = N'Store', 
         @SchemaName = N'Sales',
         @Defaults = 1;
     
-    EXECUTE tsqlt.FakeTable 
+    EXECUTE tSQLt.FakeTable 
         @TableName = N'StoreArchive', 
         @SchemaName = N'Sales',
         @Defaults = 1;
