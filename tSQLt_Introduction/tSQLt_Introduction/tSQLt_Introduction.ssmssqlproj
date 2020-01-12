@@ -133,12 +133,6 @@
           <AssociatedConnUserName />
           <FullPath>17_ExecuteTestClassAndTest_Employee.sql</FullPath>
         </FileNode>
-        <FileNode Name="OtherIdeas.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>OtherIdeas.sql</FullPath>
-        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
