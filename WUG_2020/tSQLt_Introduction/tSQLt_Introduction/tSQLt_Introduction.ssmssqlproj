@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="tSQLt_Introduction">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local)\MSSQLSRVDEV2019:JCPC120\pijac">
+          <Created>2020-01-06T23:21:22.6547403+01:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)\MSSQLSRVDEV2019</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>AdventureWorks2017</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="JCPC120\MSSQLSRVDEV2019:JCPC120\pijac">
+          <Created>2020-01-06T23:22:02.0396797+01:00</Created>
+          <Type>SQL</Type>
+          <Server>JCPC120\MSSQLSRVDEV2019</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>AdventureWorks2017</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00_RestoreDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>00_RestoreDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01_InstalltSQLt.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01_InstalltSQLt.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_CreateNewTestClass_ArchiveStores.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_CreateNewTestClass_ArchiveStores.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_CreateNewSetup_ArchiveStores.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03_CreateNewSetup_ArchiveStores.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_CreateNewTests_ArchiveStores.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_CreateNewTests_ArchiveStores.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_ExecuteTests_ArchiveStores.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05_ExecuteTests_ArchiveStores.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_CreateNewTestClass_DimDate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06_CreateNewTestClass_DimDate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07_CreateNewSetup_DimDate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07_CreateNewSetup_DimDate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_CreateNewTest_DimDate_1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08_CreateNewTest_DimDate_1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09_CreateNewTest_DimDate_2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09_CreateNewTest_DimDate_2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_RunAllTests.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10_RunAllTests.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_RemoveTestClass.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11_RemoveTestClass.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_UninstalltSQLtFramework.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12_UninstalltSQLtFramework.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_CreateNewTestClass_Employee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14_CreateNewTestClass_Employee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_CreateNewSetUp_Employee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15_CreateNewSetUp_Employee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16_CreateNewTest_Employee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16_CreateNewTest_Employee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17_ExecuteTestClassAndTest_Employee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JCPC120\MSSQLSRVDEV2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JCPC120\MSSQLSRVDEV2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17_ExecuteTestClassAndTest_Employee.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
