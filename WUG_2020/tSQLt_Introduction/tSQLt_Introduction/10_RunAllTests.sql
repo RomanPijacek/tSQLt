@@ -2,7 +2,7 @@ USE AdventureWorks2017;
 GO
 
 ---------------------------------------------------------------------------------------
--- Execute all Tests within the TestClass [test_dbo_usp_GetLongestServingEmployee]
+-- Execute all Tests within the TestClass [test_dbo_usp_ArchiveSalesStore]
 ---------------------------------------------------------------------------------------
 
 EXECUTE tSQLt.RunTestClass 
