@@ -10,5 +10,5 @@ EXECUTE tSQLt.Run
 GO
 
 EXECUTE tSQLt.RunTestClass 
-    @TestClassName = N'[test_dbo_usp_ArchiveSalesStore]';
+    @TestClassName = N'[test_DBConfiguration]';
 GO
